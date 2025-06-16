@@ -1,0 +1,27 @@
+{
+  "name": "bedrock-usage",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipher982/bedrock-usage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cipher982/bedrock-usage/issues"
+  },
+  "homepage": "https://github.com/cipher982/bedrock-usage#readme",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.828.0",
+    "@aws-sdk/credential-providers": "^3.828.0",
+    "express": "^5.1.0"
+  }
+}
